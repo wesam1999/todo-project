@@ -1,9 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 table, th, td {
     border:1px solid black;
     margin-top: 100px;
   margin-bottom: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 5px;
+
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+
+    text-align: center;
 
 }
   
@@ -20,6 +34,15 @@ footer{
     height: 50px;
 }
 a {
-    float: right;  
+    float: right; 
+    border: 1px solid #000; 
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.status{background-color: blue;
+    
     
 }
