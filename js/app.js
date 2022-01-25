@@ -9,14 +9,20 @@ if(ginder=="male"){
         var like = window. prompt("are you like the page? ");  
         var used = window. prompt("are you used this page before ? ");
         var ag = window. prompt("do you have a brother or sister? ");   
-      if(like===""&& used===""&&ag===""){
-       continue;
+      if(like==""&& used==""&&ag==""){
+        let arr=[like,used,ag];
+        console.info(" invalid string");
     }
-    let arr=[like,used,age];
+     else if(like=="yes"|| used=="yes"||ag=="yes")
+     {
+      let arr=[like,used,ag];
+      console.info(like,used,ag);
+    }
+     
     
     }
 
-   }
+    }
 else if(ginder=="female"){
     var age = window. prompt("Enter your age: ");
     if(Number(age)>=0){
@@ -25,10 +31,16 @@ else if(ginder=="female"){
         var like = window. prompt("are you like the page? ");  
         var used = window. prompt("are you used this page before ? ");
         var ag = window. prompt("do you have a brother or sister? ");   
-      if(like===""&& used===""&&ag===""){
-       continue;
+      if(like==""&& used==""&&ag==""){
+        let arr=[like,used,ag];
+        console.info(" invalid string");
+        
     }
-    let arr=[like,used,age];
+     else if(like=="yes"|| used=="yes"||ag=="yes")
+     {
+      let arr=[like,used,ag];
+      console.info(like,used,ag);
+    }
     
     }
 
@@ -42,10 +54,15 @@ else if(ginder=="female"){
         var like = window. prompt("are you like the page? ");  
         var used = window. prompt("are you used this page before ? ");
         var ag = window. prompt("do you have a brother or sister? ");   
-      if(like===""&& used===""&&ag===""){
-       continue;
+      if(like==""&& used==""&&ag==""){
+        let arr=[like,used,ag];
+        console.info(" invalid string");
     }
-    let arr=[like,used,age];
+     else if(like=="yes"|| used=="yes"||ag=="yes")
+     {
+      let arr=[like,used,ag];
+      console.info(like,used,ag);
+    }
     
     
 
