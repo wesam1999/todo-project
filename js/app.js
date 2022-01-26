@@ -1,6 +1,10 @@
+function input (){
 var name = window. prompt("Enter your name: ");
 var ginder = window. prompt("Enter your ginder: ");
+ condection(name, ginder);
 
+}
+function condection(name, ginder){
 if(ginder=="male"){
     var age = window. prompt("Enter your age: ");
     if(Number(age)>=0){
@@ -16,6 +20,9 @@ if(ginder=="male"){
      else if(like=="yes"|| used=="yes"||ag=="yes")
      {
       let arr=[like,used,ag];
+      for(let i=0;i<arr.length;i++){
+        console.log(arr[i]);
+           }
       console.info(like,used,ag);
     }
      
@@ -39,6 +46,9 @@ else if(ginder=="female"){
      else if(like=="yes"|| used=="yes"||ag=="yes")
      {
       let arr=[like,used,ag];
+      for(let i=0;i<arr.length;i++){
+        console.log(arr[i]);
+           }
       console.info(like,used,ag);
     }
     
@@ -61,6 +71,9 @@ else if(ginder=="female"){
      else if(like=="yes"|| used=="yes"||ag=="yes")
      {
       let arr=[like,used,ag];
+      for(let i=0;i<arr.length;i++){
+        console.log(arr[i]);
+           }
       console.info(like,used,ag);
     }
     
@@ -69,3 +82,5 @@ else if(ginder=="female"){
     }
 
     }
+  }
+  input();
